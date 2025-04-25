@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore Greece Home</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="media-query-home.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arapey:ital@0;1&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Forum&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            
+        
+            <div class="nav-container">
+                <nav>
+                    <div class="logo-container">
+                        <img class="logo" src="./img/vase-logo.png" alt="logo">
+                    </div>
+                    <ul class="nav-list">
+                        <li><a class="nav-links" href="#">Home</a></li>
+                        <li><a class="nav-links" href="#">Planning</a></li>
+                        <li><a class="nav-links" href="#">Tickets</a></li>
+                        <li><a class="nav-links" href="#">Destinations</a></li>
+                        <li><a class="nav-links" href="#">Free Itinerary</a></li>
+                    </ul>
+
+                    <div class="menu-container">
+                        <img class="menu-btn" src="./img/menu-black.png" alt="">
+                    </div>
+                    
+                </nav>  
+            </div>
+        </header>
+
+        <div class="main">
+            <h1>EXPLORE GREECE</h1>
+
+            <div class="input-container">
+                <h3>plan your trip to Greece here</h3>
+                <input type="text"><button>Search</button>
+            </div>
+            
+        </div>
+
+        <section>
+            <div class="testimonial-container">
+                <div class="testimonial-header">
+                   <p>Explore Greece is a website committed to helping you get the most out of your visit to Greece and the Greek islands</p> 
+                </div>
+                
+                <div class="testimonial">
+                    <div class="couple-img-container">
+                        <img src="./img/couple.jpg" alt="couple">
+                    </div>
+                </div> 
+                    <div class="testimonial-text">
+                        <h3>YASSAS AND HELLO!</h3>
+                        <p>We are Sandy and John Papas, from Brisbane, Australia. Thanks to Johns fabulous Greek heritage we visit Greece each year, sometimes twice, and explore as much of the country as we can, as well as returning to old favourites. We love to cook (and eat) Greek food and are huge advocates of the wine, the way of life and the ‘Filotimo’, ( love of honour and other virtues).</p>
+                        <p>Like you we are visitors, and have become experts at wrangling suitcases, ferry hopping and airport intricacies. We think we’ve learnt a trick or two and hope to pass on those tips to make your visit the best it can be.</p>
+                        <p>
+                        <p>We have visited Greece with our 3 children, our parents and many friends and Sandy is sometimes there solo too. We always miss our two furry daughters, Penelope and Pandora.</p>
+                    </div>
+                </div>
+        </section>
+
+        <section class="info">
+            <div class="info-container">
+                <img src="./img/hand-on-map.png" alt="Planning" >
+                <img src="./img/greece-houses-by-water.png" alt="destinations" >
+                <img src="./img/old-columns.png" alt="culture" length="300" >
+                <img src="./img/podcast.png" alt="podcast" >
+            </div>
+            
+        </section>
+
+        <section class="articles">
+            <div class="articles-container">
+                <h1>RECENT ARTICLES</h1>
+                <div class="articles-img-container">
+                    <img src="./img/under-column.png" alt="top-athens">
+                    <img src="./img/santorini-midday.png" alt="">
+                    <img src="./img/luggage.png" alt="luggage">
+                    <img src="./img/boat-on-water.png" alt="" >
+                    <img src="./img/syros.png" alt="syros" >
+                    <img src="./img/best-hotels.png" alt="" >
+                </div>
+            </div>
+            
+        </section>
+
+        <footer>
+            <div class="footer-container">
+                <ul>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Privacy</a></li>
+                    <li><a href="#">Newsletter</a></li>
+                    <li><a href="#">Support Us</a></li>
+                    <li><a href="#">Meet The Team</a></li>
+                </ul>
+            </div>
+        </footer>
+
+
+    </div>
+    <script>
+        const navBtn = document.querySelector('.menu-btn');
+        const navList = document.querySelector('.nav-list');
+
+        navBtn.addEventListener('click', function() {
+            navList.classList.toggle('active')
+        })
+    </script>
+</body>
+</html>

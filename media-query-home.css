@@ -1,0 +1,123 @@
+/* 1696px */
+@media(max-width:110em) {
+    .input-container {
+        margin-top: 37rem;
+    }
+
+    .testimonial-text {
+        width: 75%;
+    }
+
+    .testimonial-text p {
+        font-size: 2.8rem;
+    }
+}
+
+/* 1360em */
+@media (max-width:85em) {
+    .input-container   {
+   
+    }
+
+    .testimonial-text p {
+        font-size: 2.2rem;
+    }
+
+    .couple-img-container img {
+        max-width: 30rem;
+    }
+}
+
+/* 1104px */
+@media(max-width:69em) {
+
+    .main h1 {
+        font-size: 8rem;
+    }
+
+    .testimonial-header {
+        font-size: 2rem;
+    }
+
+    .testimonial-text h3 {
+        font-size: 3rem;
+        margin: 0 0 1.6rem 0;
+    }
+
+    .testimonial-text {
+        padding: 0 0 4rem 2rem;
+        width: 80%;
+    }
+
+    .testimonial p {
+        font-size: 1.6rem;
+        line-height: 2rem;
+    }
+
+    .couple-img-container img {
+        max-width: 26rem;
+    }
+}
+
+/* 896px */
+@media(max-width:56em) {
+    .menu-container img {
+        display: block;
+    }
+
+    .nav-list {
+        flex-direction: column;
+        background-color: var(--gray);
+        position: absolute;
+        right: -900px;
+        width: 80%;
+        height: 100vh;
+        padding-top: 80px;
+        transition: all 0.3s ease;
+    }
+
+    
+    .nav-list.active {
+        right: 0;
+    }
+
+    .nav-list li:not(:last-child) {
+        text-align: left;
+        width: 100%;
+        padding: 10px 30px;
+        border-bottom: 1px solid var(--white);
+    }
+
+    .testimonial-text {
+        width: 95%;
+    }
+
+    .testimonial p {
+        font-size: 1.4rem;
+        line-height: 1.8rem;
+    }
+
+    .couple-img-container img {
+        max-width: 22rem;
+    }
+}
+
+/* 657px */
+@media(max-width:41em) {
+    .testimonial-container {
+        grid-template-columns: 1fr ;
+        grid-template-rows: 1fr 4fr;
+    }
+
+    .testimonial-header {
+        grid-column: 1/4;
+        padding: 2rem;
+    }
+
+    .testimonial-text {
+        grid-column: 1/4;
+        text-align: center;
+    }
+
+    
+}

@@ -37,7 +37,7 @@ img {
     right: 0;
 }
 
-ul {
+.nav-list {
     display: flex;
     width: 100%;
     justify-content: space-around;
@@ -86,6 +86,7 @@ a {
 
 .input-container {
     margin-top: 47rem;
+    padding: 20rem;
 }
 
 input {
@@ -103,6 +104,7 @@ h3 {
     font-size: 4rem;
     font-family: "DM Sans", sans-serif;
     margin: 3rem 0 2.4rem 2.4rem;
+    text-align: center;
 }
 
 .testimonial-container {
@@ -126,7 +128,6 @@ h3 {
     font-size: 3rem;
     padding-left: 3.6rem;
     width: 65%;
-    margin-bottom: 3.6rem;
 }
 
 .couple-img-container {
@@ -149,11 +150,13 @@ h3 {
 }
 
 .info-container {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     background-color: var(--blue);
     justify-content: space-evenly;
     padding: 3.2rem;
 }
+
 
 .articles-container h1 {
     font-size: 4.8rem;
@@ -163,27 +166,31 @@ h3 {
 }
 
 .info-container img {
-    width: 25%;
+    width: 100%;
 }
 
 .articles-img-container {
-    display: flex;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 2rem
 }
 
 .articles-img-container img {
-    width: 15%;
+    width: 100%;
 }
 
 footer {
     font-size: 2.4rem;
     font-family: "DM Sans", sans-serif;
-    margin: 5rem 0 0 0;
+    margin: 5rem 0 0 0; 
+    
 }
 
 
 .footer-container ul {
     background-color: var(--lightblue);
     padding: 6rem 0 6rem 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 

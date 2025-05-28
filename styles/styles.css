@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --white: #fff;
+    --blue: #168ce8;
+    --darkblue: #0954ba;
+    --lightblue: #79adf4;
+    --gray: #f2f2f2;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+img {
+    display: block;
+}
+
+
+footer {
+    font-size: 2.4rem;
+    font-family: "DM Sans", sans-serif;
+    margin: 5rem 0 0 0; 
+    
+}
+
+
+.footer-container ul {
+    background-color: var(--lightblue);
+    padding: 6rem 0 6rem 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+

@@ -1,0 +1,217 @@
+* {
+    font-family: "DM Sans", sans-serif;
+}
+
+.background-img-container {
+    background-image: url(../img/santorini-sunset.jpeg);
+    min-height: 75vh;
+    background-size: cover;
+}
+
+h1 {
+    max-width: 100%;
+    text-align: center;
+    font-size: 4.8rem;
+    padding: 5rem;
+    background-color: var(--gray);
+    margin-bottom: 5rem;
+}
+
+.places {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 100%;
+    padding: 5rem;
+    gap: 10rem;
+}
+
+h3 {
+    font-size: 3.6rem;
+    margin-bottom: 4rem;
+    max-width: 100%;
+}
+
+
+img {
+    width: 75%;
+    justify-self: left;
+}
+
+p {
+    width: 75%;
+    font-size: 2.4rem;
+    line-height: 5rem;
+}
+
+.explore h3 {
+    text-align: center;
+    font-size: 5rem;
+    background-color: var(--gray);
+    padding: 3rem;
+    margin: 0;
+}
+
+.explore-div-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+}
+
+.explore-img {
+    width: 100%;
+}
+
+h6 {
+    font-size: 4rem;
+}
+
+/********************************************************/
+/* BEGIN MEDIA QUERIES */
+/*******************************************************/
+/*  1850px  */
+@media(max-width: 115em) {
+
+    img {
+        width: 85%;
+    }
+
+    h3 {
+        margin-bottom: 2rem;
+    }
+
+    h6 {
+        font-size: 3.2rem;
+    }
+
+    p {
+        line-height: 4rem;
+    }
+}
+
+/* 1600px */
+@media(max-width: 100em) {
+
+    img {
+        width: 90%;
+    }
+
+    h6 {
+        font-size: 2.8rem;
+    }
+}
+
+/* 1408px */
+@media(max-width: 88em) {
+
+    h1 {
+        font-size: 3.6rem;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    h6 {
+        font-size: 2.2rem;
+    }
+
+    p {
+        font-size: 2.2rem;
+        line-height: 3.5rem;
+    }
+    
+    .places {
+        gap: 5rem;
+        padding: 2rem;
+    }
+
+    .explore h3 {
+        font-size: 3.6rem;
+    }
+}
+
+/* 1168px */
+@media(max-width: 73em) {
+
+    .background-img-container {
+        min-height: 60vh;
+    }
+
+    .places {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    p {
+        width: 100%;
+    }
+
+    .athens-img {   
+        grid-row: 3/4;
+    }
+
+    .turkey-img {
+        grid-row: 7/8;
+    }
+
+    .explore-div-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    h6 {
+        font-size: 3rem;
+    }
+}
+
+/* 800px */
+@media(max-width: 50em) {
+
+    .background-img-container {
+        min-height: 45vh;
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    p {
+        font-size: 1.8rem;
+    }
+
+    h3 {
+        font-size: 3rem;
+    }
+
+    h6 {
+        font-size: 2.4rem;
+    }
+
+    .places {
+        gap: 5rem;
+    }
+
+    img {
+        width: 75%;
+        justify-self: center;
+        align-items: center;
+    }
+
+}
+
+/* 600px */
+@media(max-width: 37.5em) {
+
+    .background-img-container {
+        min-height: 40vh;
+    }
+
+    .explore-div-container {
+        grid-template-columns: 1fr;
+    }
+
+    p {
+        line-height: 2.5rem;
+    }
+}

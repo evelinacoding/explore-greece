@@ -4,11 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Explore Greece Home</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="media-query-home.css">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/media-query-home.css">
+    <link rel="stylesheet" href="styles/nav.css">
+    <link rel="stylesheet" href="styles/index.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Arapey:ital@0;1&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Forum&display=swap" rel="stylesheet">
+
 </head>
 <body>
     <div class="container">
@@ -19,11 +22,11 @@
                         <img class="logo" src="./img/vase-logo.png" alt="logo">
                     </div>
                     <ul class="nav-list">
-                        <li><a class="nav-links" href="#">Home</a></li>
-                        <li><a class="nav-links" href="#">Planning</a></li>
-                        <li><a class="nav-links" href="#">Tickets</a></li>
-                        <li><a class="nav-links" href="#">Destinations</a></li>
-                        <li><a class="nav-links" href="#">Free Itinerary</a></li>
+                        <li><a class="nav-links" href="index.html">Home</a></li>
+                        <li><a class="nav-links" href="planning.html">Planning</a></li>
+                        <li><a class="nav-links" href="tickets.html">Tickets</a></li>
+                        <li><a class="nav-links" href="destinations.html">Destinations</a></li>
+                        <li><a class="nav-links" href="free-itinerary.html">Free Itinerary</a></li>
                     </ul>
 
                     <div class="menu-container">
@@ -80,11 +83,11 @@
                 <h1>RECENT ARTICLES</h1>
                 <div class="articles-img-container">
                     <img src="./img/under-column.png" alt="top-athens">
-                    <img src="./img/santorini-midday.png" alt="">
+                    <img src="./img/santorini-midday.png" alt="santorini midday">
                     <img src="./img/luggage.png" alt="luggage">
-                    <img src="./img/boat-on-water.png" alt="" >
+                    <img src="./img/boat-on-water.png" alt="boat on water" >
                     <img src="./img/syros.png" alt="syros" >
-                    <img src="./img/best-hotels.png" alt="" >
+                    <img src="./img/best-hotels.png" alt="hotel" >
                 </div>
             </div>
             
@@ -105,13 +108,6 @@
 
 
     </div>
-    <script>
-        const navBtn = document.querySelector('.menu-btn');
-        const navList = document.querySelector('.nav-list');
-
-        navBtn.addEventListener('click', function() {
-            navList.classList.toggle('active')
-        })
-    </script>
+    <script src="script.js"></script>
 </body>
 </html>

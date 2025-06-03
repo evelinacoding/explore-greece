@@ -89,9 +89,67 @@ h1 {
     font-family: "DM Sans";
     font-size: 4.8rem;
     margin-bottom: 4rem;
+    margin-top: 3rem;
 }
 
 p {
     font-size: 2.2rem;
     padding:  .5rem 0;
+}
+
+/***********************/
+/* BEGIN MEDIA QUERIES */
+/***********************/
+
+/* 1264px */
+@media(max-width: 79em) {
+    h1 {
+        font-size: 3.8rem;
+    }
+
+    .body-text {
+        padding: 4rem 0 0 0;
+    }
+
+    p {
+        font-size: 1.8rem;
+    }
+}
+
+/* 1120px */
+@media(max-width:70em) {
+    h1{
+      font-size: 3rem;
+    }
+
+    .body-text-container {
+        width: 80%;
+    }
+}
+
+/* 848px */
+@media(max-width:53em) {
+    .body-text-container{
+        width: 100%;
+    } 
+
+    .form-container {
+       max-width: 45rem;
+       }
+}
+
+/* 672px */
+@media(max-width:42em) {
+    .background-img-container {
+        grid-template-columns: 1fr;
+    }
+
+    .form-container {
+        max-width: 75%;
+    }
+
+    .body-text-container {
+        margin-bottom: 15rem;
+        padding: 7rem;
+    }
 }

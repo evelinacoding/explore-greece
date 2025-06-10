@@ -5,19 +5,19 @@
 }
 
 
+
 .background-img-container {
     background-image: url(../img/santorini-vector.png);
-    background-size: 50%;
+    background-size: contain;
     background-repeat: no-repeat;
-    min-height: 70vh;
+    min-height: 100vh;
     background-color: var(--lightblue);
     background-position: right bottom;
-
     font-family: "DM Sans", sans-serif;
 
     display: grid;
     grid-template-columns: 1fr 2fr;
-    
+    width: 100%;
 }
 
 .form-container {
@@ -142,6 +142,8 @@ p {
 @media(max-width:42em) {
     .background-img-container {
         grid-template-columns: 1fr;
+        background-size: cover;
+        background-position: center;
     }
 
     .form-container {

@@ -45,8 +45,6 @@
 /* 1104px */
 @media(max-width:69em) {
 
-   
-
     .main h1 {
         font-size: 8rem;
     }
@@ -81,17 +79,6 @@
     .articles-img-container {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-    }
-
-    .footer-container ul {
-        grid-template-columns: 1fr 1fr 1fr;
-        justify-items: center;
-        align-items: center;
-        
-    }
-
-    .footer-container li {
-        padding: 1.6rem;
     }
 }
 
@@ -162,12 +149,7 @@
 
     .couple-img-container {
         margin-bottom: 0;
-    }
-
-    footer {
-        font-size: 1.8rem;
-    }
-    
+    }   
 }
 
 /* 464px */

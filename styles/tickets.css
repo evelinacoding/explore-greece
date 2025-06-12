@@ -142,16 +142,66 @@ p {
 @media(max-width:42em) {
     .background-img-container {
         grid-template-columns: 1fr;
-        background-size: cover;
-        background-position: center;
+        
+        background-position: bottom;
     }
 
     .form-container {
-        max-width: 75%;
+      
+    }
+
+    .body-text {
+        padding: 0;
     }
 
     .body-text-container {
         margin-bottom: 15rem;
         padding: 7rem;
+    }
+}
+
+@media(max-width:29em) {
+
+    form {
+        padding: 2rem;
+        align-items: center;
+    }
+
+    .form-container {
+        margin: 10px;
+        max-width: 40rem;
+        padding: 0;
+
+        padding-left: 2rem;
+    }
+
+    label {
+        margin-right: 0;
+        width: 4rem;
+        font-size: 1.4rem;
+    }
+
+    input {
+        width: 20rem;
+    }
+
+    button {
+        font-size: 1.8rem;
+    }
+
+    .body-text-container {
+        padding: 4rem;
+    }
+
+    h1 {
+        font-size: 2.4rem;
+    }
+
+    p {
+        font-size: 1.6rem;
+    }
+
+    h3 {
+        font-size: 2rem;
     }
 }

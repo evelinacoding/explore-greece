@@ -49,6 +49,7 @@ h3 {
 }
 
 .planning-guide-text {
+    display: block;
     justify-items: center;
     align-items: center;
     align-self: center;

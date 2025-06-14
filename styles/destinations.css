@@ -64,7 +64,7 @@ p {
 }
 
 h6 {
-    font-size: 4rem;
+    font-size: 3.6rem;
 }
 
 /********************************************************/
@@ -82,7 +82,7 @@ h6 {
     }
 
     h6 {
-        font-size: 3.2rem;
+        font-size: 2.4rem;
     }
 
     p {
@@ -97,9 +97,6 @@ h6 {
         width: 90%;
     }
 
-    h6 {
-        font-size: 2.8rem;
-    }
 }
 
 /* 1408px */
@@ -160,9 +157,6 @@ h6 {
         grid-template-columns: repeat(2, 1fr);
     }
 
-    h6 {
-        font-size: 3rem;
-    }
 }
 
 /* 800px */
@@ -185,7 +179,7 @@ h6 {
     }
 
     h6 {
-        font-size: 2.4rem;
+        font-size: 2rem;
     }
 
     .places {

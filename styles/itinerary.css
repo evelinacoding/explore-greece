@@ -14,9 +14,7 @@ html {
 .form-container {
     background-color: var(--gray);
     max-width: 65rem;
-    min-width: fit-content;
     margin: 20rem 30rem;
-
     border-radius: 1rem;
 }
 
@@ -35,6 +33,10 @@ form {
 h1 {
     font-size: 3.6rem;
     padding-bottom: 3rem;
+}
+
+p {
+    
 }
 
 input {
@@ -154,6 +156,10 @@ button {
 
     form {
         margin: 4rem 2rem;
+    }
+
+    .form-container {
+        min-width: fit-content;
     }
 
 

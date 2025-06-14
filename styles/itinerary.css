@@ -131,7 +131,7 @@ button {
 @media(max-width: 28em) {
 
     input {
-        max-width: 15rem;
+        max-width: 20rem;
         font-size: 1.4rem;
     }
 
@@ -140,7 +140,7 @@ button {
     }
 
     button {
-        width: 15rem;
+        width: 20rem;
     }
 
     p {
